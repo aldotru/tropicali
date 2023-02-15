@@ -38,7 +38,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -63,34 +63,3 @@ input, textarea, select {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
-@font-face {
-  font-family: "Jost-Book";
-  src: url("fonts/jost-book.woff2"), url("fonts/jost-book.woff");
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ca774a;
-  color: #fff;
-  font-family: "Jost-Book";
-  font-size: 1.5rem;
-  line-height: 1.5;
-  min-height: 100vh;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  max-width: 31.25rem;
-  width: 90%;
-}
-@media only screen and (max-width: 48em) {
-  section {
-    font-size: 1rem;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
