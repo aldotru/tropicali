@@ -1,0 +1,55 @@
+// Imports
+@import "reset";
+@import "typography";
+
+// Variables
+
+// Colors
+$primary-color: #f70201;
+$secondary-color: #ca774a;
+$white: #fff;
+
+// Font
+$body-font: "Jost-Book";
+$body-size: 1.5rem;
+
+// Media Queries
+$mq-medium: 48em;
+
+// Mixins
+@mixin drop-shadow($color) {
+    box-shadow: 0 0 10px $color;
+}
+
+@mixin vertical-align-middle() {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+@mixin mq($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}
+
+body {
+    @include vertical-align-middle;
+    background-color: $primary-color;
+    color: $white;
+    font-family: $body-font;
+    font-size: $body-size;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    max-width: 31.25rem;
+    width: 90%;
+    @include mq($mq-medium) {
+        font-size: 1rem;
+    };
+}
