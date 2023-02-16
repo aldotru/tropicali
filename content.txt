@@ -1,0 +1,38 @@
+Colors –
+Red: #f70201
+Brown: #ca774a
+White: #ffffff
+Black: #151620
+
+Typography –
+Bagnard:      http://open-foundry.com/hot30/bagnard_regular
+Jost:         http://indestructibletype.com/Jost.html
+Calafia:      http://www.losttype.com/font/?name=calafia     
+Roboto Mono:  https://fonts.google.com/specimen/Roboto+Mono
+
+Design work –
+https://www.figma.com/file/tYHIDNn2IAfYQ2LA84g5MS/Tropicali
+
+Typography:
+Body 24px Jost, line height 1.5
+Button: 16px, 700 weight, 3px letter spacing
+Heading 1: 96px Bagnard
+Heading 2: 64px Bagnard
+Heading 3: 32px Bagnard
+
+
+Content –
+Say hello
+
+We like it spicy
+We’re Tropicali
+
+Relax with us
+tropicali is a new restaurant in the heart of Santa Fe, New Mexico. We serve casual fine dining Latin American cuisine with a little Southwestern twist. Ask us how to make your burrito “Christmas style”!
+About us
+
+Taste Santa Fe
+View menu
+
+Working closely with our chef, we’ve developed a special 5-course tasting menu for weddings and events.
+
