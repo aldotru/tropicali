@@ -65,7 +65,7 @@ function watchTasks(){
 
 // Deploy project via GitHub pages
 function deploy(){
-    ghpages.publish('dist', function(err) {});
+    ghPages.publish('dist', function(err) {});
 };
 
 exports.default = series(
