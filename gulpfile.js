@@ -65,13 +65,14 @@ function watchTasks(){
 
 // Deploy project via GitHub pages
 function deploy(){
-    ghPages.publish('dist', function(err) {});
+    return ghPages.publish("dist");
 };
 
+exports.deploy = deploy;
 exports.default = series(
     style,
     html,
     images,
     fonts,
     watchTasks
-)
+);
